@@ -1,0 +1,21 @@
+{
+	"name": "shop-server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon node server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.3",
+		"fs": "^0.0.1-security",
+		"mongoose": "^6.2.4",
+		"nodemon": "^2.0.15",
+		"process": "^0.11.10",
+		"querystring": "^0.2.1"
+	}
+}
